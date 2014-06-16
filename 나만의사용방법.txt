@@ -1,0 +1,2 @@
+MyDirect3D 폴더에서 우클릭 Git GUI Here 메뉴 선택
+Git Gui에서 Commit메뉴 > Stage Change Files To Commit > Push > Remote메뉴 > Source Branches 리스트에서 master 선택 후 Push 버튼 클릭
