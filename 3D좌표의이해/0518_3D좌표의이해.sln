@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0518_3D좌표의이해", "0518_3D좌표의이해.vcproj", "{8A7C81E3-731A-4BBA-9BF6-2898A5F90915}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A7C81E3-731A-4BBA-9BF6-2898A5F90915}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8A7C81E3-731A-4BBA-9BF6-2898A5F90915}.Debug|Win32.Build.0 = Debug|Win32
+		{8A7C81E3-731A-4BBA-9BF6-2898A5F90915}.Release|Win32.ActiveCfg = Release|Win32
+		{8A7C81E3-731A-4BBA-9BF6-2898A5F90915}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
