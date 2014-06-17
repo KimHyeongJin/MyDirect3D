@@ -69,21 +69,21 @@ a : Theta에서 추가된 각도
 Z축 정점의 회전(Rotation)
 x	= r*cos(0+a)
 	= r*( cos(0)*cos(a) - sin(0)*sin(a) )  
-	= x*(r*cos(a)) - y*(r*sin(a))
+	= x*( r*cos(a)) - y*(r*sin(a) )
 
-결과 적으로 cos(0), sin(0)는 알고 있는 값 x, y 값을 나타낸다.
+결과 적으로 r*cos(0), y*sin(0)는 기존의 (x, y) 좌표를 나타낸다.
 그러므로 x*cos(a) - y*sin(a) 방정식이 나오고 이런 방정식이 나올수 있는 4*4행렬을 유추해보면 아래와 같다.
 (x, y, 0, 0)
 * 
 cos(a)	0	0	0
--sin(a)	0	0	0
+-sin(a)	1	0	0
 0		0	1	0
 0		0	0	1
 
 y	= r*sin(0+a)
 	= r*( sin(0)*cos(a) + cos(0)*sin(a) )
-	= y*(r*cos(a)) + x*(r*sin(a))
-결과 적으로 sin(0), cos(0)는 알고 있는 값 y, x 값을 나타낸다.
+	= y*( r*cos(a)) + x*(r*sin(a) )
+결과 적으로 r*cos(0), r*sin(0) 는 기존의 (x, y) 좌표를 나타낸다.
 (x, y, 0, 0)
 * 
 cos(a)	sin(a)	0	0
